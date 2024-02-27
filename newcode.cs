@@ -1,6 +1,6 @@
     internal string DebugDisplayString
         {
-            get
+            get // good
             {
                 return string.Concat(
                     this.X.ToString(), "  ",
