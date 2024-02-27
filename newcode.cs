@@ -22,3 +22,10 @@
             this.Z = z;
             this.W = w;
         }
+     public Vector4(Vector3 value, float w)
+        {
+            this.X = value.X;
+            this.Y = value.Y;
+            this.Z = value.Z;
+            this.W = w;
+        }
